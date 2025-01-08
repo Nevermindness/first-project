@@ -1,8 +1,10 @@
-.main-card__first {
-    display: grid;
-    grid-template: repeat(6, 1fr), repeat(3, 1fr);
+.main-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
     background-color: bisque;
     color: aqua;
-    width: 100px;
+    width: 100%;
     height: 200px;
 }
